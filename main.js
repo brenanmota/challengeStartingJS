@@ -43,3 +43,42 @@ if (typeof isBoolean == 'boolean') {
 
 // 6. Crie um script que declare duas variáveis e exiba o resultado da subtração entre elas.
 
+const numberThree = 56
+const numberFour = 77
+
+const sub = numberThree - numberFour
+alert(sub)
+
+
+// 7. Crie um script que declare duas variáveis e exiba o resultado da multiplicação entre elas.
+
+const mult = numberThree * numberFour
+alert(mult)
+
+
+// 8. Crie um script que declare duas variáveis e exiba o resultado da divisão entre elas.
+
+const div = numberOne / numberFour
+alert(div)
+
+
+// 9. Crie um script que declare uma variável e verifique se o seu valor é um número par. Se for, exiba a mensagem "É um número par", caso contrário, exiba a mensagem "Não é um número par".
+
+const isEvenNumber = 40
+
+if (isEvenNumber % 2 == 0) {
+  alert('É um número par')
+} else {
+  alert('Não é um número par')
+}
+
+
+// 10. Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar".
+
+const isOddNumber = 30
+
+if (isOddNumber % 2 != 0) {
+  alert('É um número ímpar')
+} else {
+  alert('Não é um número ímpar')
+}
